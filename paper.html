@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Paper</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #009688;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .paper-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .paper-card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .paper-card h3 {
+            margin: 15px 0;
+            font-size: 24px;
+            color: #009688;
+        }
+        .paper-card p {
+            padding: 0 15px 20px 15px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Types of Paper</h1>
+        <p>Explore different types of paper and their uses</p>
+    </header>
+    <div class="container">
+        <div class="paper-card">
+            <img src="glossy.jpg" alt="Glossy Paper">
+            <h3>Glossy Paper</h3>
+            <p>Glossy paper is coated to provide a shiny finish, ideal for high-quality photographs and vibrant prints.</p>
+        </div>
+        <div class="paper-card">
+            <img src="matte.jpg" alt="Matte Paper">
+            <h3>Matte Paper</h3>
+            <p>Matte paper offers a non-reflective surface, making it perfect for professional documents and art prints.</p>
+        </div>
+        <div class="paper-card">
+            <img src="recycled.jpg" alt="Recycled Paper">
+            <h3>Recycled Paper</h3>
+            <p>Recycled paper is made from post-consumer waste, providing an eco-friendly option for everyday printing and writing.</p>
+        </div>
+    </div>
+</body>
+</html>
