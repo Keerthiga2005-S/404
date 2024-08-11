@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pencil Collection</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #e6e6e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .pencil-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 15px;
+            width: 300px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .pencil-card img {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .pencil-card h3 {
+            margin: 15px 0;
+            font-size: 24px;
+            color: #ff8c00;
+        }
+        .pencil-card p {
+            padding: 0 15px 20px 15px;
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pencil Collection</h1>
+        <p>Explore the variety of pencils and their uses</p>
+    </header>
+    <div class="container">
+        <div class="pencil-card">
+            <img src="graphite.jpg" alt="Graphite Pencil">
+            <h3>Graphite Pencil</h3>
+            <p>Graphite pencils are perfect for drawing and writing, offering a range of hardness for different effects.</p>
+        </div>
+        <div class="pencil-card">
+            <img src="colored.jpg" alt="Colored Pencil">
+            <h3>Colored Pencil</h3>
+            <p>Colored pencils come in a variety of vibrant colors, ideal for artistic and creative projects.</p>
+        </div>
+        <div class="pencil-card">
+            <img src="mechanical.jpg" alt="Mechanical Pencil">
+            <h3>Mechanical Pencil</h3>
+            <p>Mechanical pencils provide consistent lines without the need for sharpening, making them great for technical work.</p>
+        </div>
+    </div>
+</body>
+</html>
